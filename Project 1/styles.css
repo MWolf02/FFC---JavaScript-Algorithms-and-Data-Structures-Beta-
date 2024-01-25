@@ -1,0 +1,27 @@
+main{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+}
+
+.palindrome-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;    
+}
+
+.label-text{   
+    padding-bottom: 12px;
+}
+
+.input-text{
+    margin-right: 12px;
+    border-style: none;
+    border-bottom: 2px solid grey;
+    margin-bottom: 12px;
+}
+
