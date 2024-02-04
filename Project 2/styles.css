@@ -38,10 +38,10 @@ button {
   height: 50px;
 }
 
-button{
-    background-color: rgb(254, 254, 121);
-    color: black;
-    cursor: pointer;
+button {
+  background-color: rgb(254, 254, 121);
+  color: black;
+  cursor: pointer;
 }
 
 .convert-container {
@@ -53,10 +53,10 @@ button{
   margin-bottom: 20px;
 }
 
-.result{
-    border: 2px solid white;
-    width: 350px;
-    height: 80px;
-    padding: 20px;
-    color: black;
+.result {
+  border: 2px solid white;
+  width: 350px;
+  height: 80px;
+  padding: 20px;
+  color: black;
 }
