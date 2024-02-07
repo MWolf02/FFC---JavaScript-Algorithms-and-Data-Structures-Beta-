@@ -1,0 +1,42 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-color: bisque;
+  width: 50%;
+  height: 460px;
+}
+
+h1 {
+  text-align: center;
+  margin: 100px 0px;
+}
+
+h2 {
+  margin: 30px 0px;
+}
+
+button,
+input {
+  width: 40%;
+  margin-bottom: 10px;
+  height: 30px;
+  border-radius: 10px;
+  border-color: black;
+  font-size: 12px;
+}
