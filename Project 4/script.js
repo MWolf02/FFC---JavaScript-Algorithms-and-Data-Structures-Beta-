@@ -21,7 +21,19 @@ document.addEventListener("DOMContentLoaded", function () {
     totalElement.textContent = `Total: $${price.toFixed(2)}`;
   }
 
+  function updateCIDDisplay() {
+    const cidContainer = document.getElementById("cid-container");
+    cidContainer.innerHTML = ""; // Clear existing content
+
+    cid.forEach(([denomination, amount]) => {
+      const p = document.createElement("p");
+      p.textContent = `${denomination}: $${amount.toFixed(2)}`;
+      cidContainer.appendChild(p);
+    });
+  }
+
   updateTotalDisplay();
+  updateCIDDisplay();
 
   purchaseBtn.addEventListener("click", function () {
     const cash = parseFloat(cashInput.value);
